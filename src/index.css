@@ -1,0 +1,66 @@
+.container{
+  background-color: rgb(227, 71, 227);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-main{
+  width: 30%;
+  height: 70%;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  overflow-y: scroll;
+}
+.todoTitle{
+  background-color: purple;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  letter-spacing: 5px;
+}
+input{
+  width: 90%;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid purple;
+}
+.add-button{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: purple;
+  border: 2px solid purple;
+  cursor: pointer;
+}
+li{
+  text-align: left;
+  font-size: 20px;
+
+}
+.delete-btn{
+  margin: 5px 10px 0px 0px;
+  border-radius: 100%;
+  width: 25px;
+  font-size: 15px;
+  height: 25px;
+  border: 2px solid purple;
+  background-color: red;
+  color: white;
+  display: inline;
+  cursor: pointer;
+}
+ol{
+  display: flex;
+  align-items: center;
+}
+li{
+  display: inline-block ;
+  margin: 0px 10px;
+}
+.item{
+  margin: 17px 0px;
+}
